@@ -17,3 +17,15 @@ VALUE
 ('Lawyer', '190000', '3'),
 ('Legal Team Lead', '250000', '3'),
 ('System Engineer', '119000', '5');
+
+INSERT INTO employees (first_name, last_name, role_id, manager_id)
+VALUE
+('Jane', 'Doe', '1', null),
+('John', 'Doe', '2', '1'),
+('Ashley', 'Sentil', '3', null),
+('Anne', 'Cuthbert', '4', null),
+('Alana', 'Cary', '5', '4'),
+('Ben', 'Tupik', '5', '4'),
+('Shirley', 'Brown', '6', '7'),
+('Susan', 'Potter', '7', null),
+('James', 'Allen', '8', null);
